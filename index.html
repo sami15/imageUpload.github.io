@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Upload Preview</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container Markup -->
+    <div class="container">
+      <!-- Input Markup -->
+      <input type="file" id="default-file" hidden="hidden" />
+
+      <!-- Button Markup -->
+      <button id="custom-btn" type="button" class="btn">
+        CHOOSE FILE
+      </button>
+
+      <!-- Choose File TEXT Markup -->
+      <span id="custom-space"> <strong> No</strong> File, Selected!😭</span>
+    </div>
+    <!-- Image Preview Markup -->
+    <div class="preview_holder">
+      <div id="preview">
+        <img src="./QuotesFromBook.png" id="preview_img" class="preview_img" />
+        <span id="preview_text" class="preview_text">Image Preview</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

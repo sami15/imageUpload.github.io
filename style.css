@@ -1,0 +1,55 @@
+/* General Styling */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 19, 19);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Button Styling */
+.btn {
+  border: none;
+  background-color: rgb(65, 174, 236);
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transition: all 500ms ease;
+}
+/* Span Text Styling */
+#custom-space {
+  color: rgba(245, 245, 245, 0.678);
+  margin-left: 2%;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+/* Image Preview Styling */
+.preview_holder {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  min-height: 300px;
+  border: dotted;
+}
+.preview_img {
+  display: none;
+  width: 100%;
+  object-fit: cover;
+}
